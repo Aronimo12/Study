@@ -1,0 +1,39 @@
+body {
+    font-family: "Times new Roman";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+}
+
+p {
+    font-weight: 400;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid blue;
+    color: black;
+    padding: 10px 17px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 5cm;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15;
+    float: right;
+    display: block;
+}
